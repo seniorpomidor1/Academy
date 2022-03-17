@@ -1,0 +1,43 @@
+package Homework1;
+
+public class Cat {
+	int age;
+	String nickname;
+	public Cat() {
+		super();
+	}
+	public Cat(int age) {
+		super();
+		this.age = age;
+	}
+
+	public Cat(int age, String nickname) {
+		super();
+		this.age = age;
+		this.nickname = nickname;
+	}
+
+	public int[] getGrow() {
+		System.out.println("Кот ростет :" + nickname);
+		return null;
+	}
+
+	public int[] getSleep() {
+		System.out.println("Кот спит :" + nickname);
+		return null;
+	}
+
+	public int[] getEat() {
+		System.out.println("Кот ест :" + nickname);
+		return null;
+	}
+
+	public int[] getNickname() {
+		System.out.println("Имя кота :" + nickname);
+		return null;
+	}
+	public int[] getWalk() {
+		System.out.println("Кот гуляет :" + nickname);
+		return null;
+	}
+}

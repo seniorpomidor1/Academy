@@ -1,0 +1,27 @@
+
+public class Task5 {
+	public static void main(String[] args) {
+		int age = 0;
+		String nickname = 0;
+		public void grow(){
+			// add code here
+			}
+		public void sleep(){
+			// add code here
+			}
+		public void eat(){
+			// add code here
+			}
+		public void walk(){
+			// add code here
+			}
+		public Cat(){
+			// nothing
+			}
+		public Cat(String nickname){
+			// add code here
+			}
+
+	}
+
+}

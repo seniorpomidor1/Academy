@@ -1,0 +1,29 @@
+
+public class Cat {
+
+	public Cat(int i, String string) {
+		int age = 0;
+		String nickname = 0;
+	}
+
+	public int[] getGrow() {
+		System.out.println("Кот ростет:" + nickname);
+		return null;
+	}
+
+	public int[] getSleep() {
+		System.out.println("Кот спит:" + nickname);
+		return null;
+	}
+
+	public int[] getEat() {
+		System.out.println("Кот ест:" + nickname);
+		return null;
+	}
+
+	public int[] getNickname() {
+		System.out.println("Имя кота" + nickname);
+		return null;
+	}
+
+}

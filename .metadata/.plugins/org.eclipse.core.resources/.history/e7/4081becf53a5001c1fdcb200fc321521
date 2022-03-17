@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class Task2 {
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+    System.out.print("Введите число: ");
+    String s1 = scanner.nextLine();
+	switch (a) {
+	case "int":
+		System.out.println("Остаток деления на 2");
+		break;
+	case "double":
+	System.out.println("Вывести *0.7");
+	break;
+	case "float":
+	System.out.println("Возвести в квадрат");
+	break;
+	case "char":
+	System.out.println("Вывести код символа");
+	break;
+	case "String":
+	System.out.println("Hello" + "a");
+	break;
+	case "other":
+	System.out.println("Unsupported type");
+	break;
+	}
+}
+}
