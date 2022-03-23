@@ -1,0 +1,17 @@
+package Homework2;
+
+public class Task11 {
+	public static void main(String[] args) {
+		String x1 = "hello";
+		String y1 = "hlleo";
+		String z1 = "art";
+		if (x1.length() != y1.length()) {
+			System.out.println("false");
+		}else if (x1.length() != z1.length()) {
+			System.out.println("true");
+				return;
+		
+		}
+	}
+}
+
